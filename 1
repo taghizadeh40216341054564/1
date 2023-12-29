@@ -6,11 +6,11 @@ int main()
     std::cout << "please enter the 'r' of the circle:" << std::endl;
     float r, m, a;
     std::cin >> r;
-    if (r >= 1)
+    if (r > 0)
     {
         m = pi * r * r;
         a = 2 * pi * r;
-    std::cout << "perimeter=" << m << std::endl << "area=" << a;
+        std::cout << "perimeter=" << m << std::endl << "area=" << a;
     }
     else if (r==0 || r<=-1 )
     {
