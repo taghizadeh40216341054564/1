@@ -1,0 +1,19 @@
+//
+#include <iostream>
+using namespace std;
+int main()
+{
+    char n;
+    cout<<"Please enter your character:";
+    cin>>n;
+    switch(n)
+    {
+        case'a':cout<<20;break;
+        case'b':cout<<19;break;
+        case'c':cout<<18;break;
+        case'd':cout<<"under18";break;
+        default:cout<<"invalid input";
+    }
+}
+// Created by MediTaghizade.
+//
