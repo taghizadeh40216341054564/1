@@ -1,0 +1,17 @@
+//
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,x;
+    for (x  = 1000; x <=9999 ; x++) {
+        a = x % 10;//yekan
+        b = (x / 10) % 10; //dahgan
+        c = (x / 100) % 10; //sadgan
+        d = x / 1000; //hezargan
+        if ((a == d) && (b == c))
+            cout << x << endl;
+    }
+}
+// Created by MediTaghizade.
+//
